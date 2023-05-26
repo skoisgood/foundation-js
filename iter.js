@@ -91,9 +91,3 @@ console.log(newArr);
 console.log("======================================");
 //Object
 console.log("Object Function");
-
-const personArr = [
-  ["art", 26, true],
-  ["art", 23, false],
-  ["art", 26, true],
-];
