@@ -223,3 +223,15 @@ console.log(mode([1, 2, 1, 4, 335, 6, 2]));
 console.log(isNull([1, 2, 1, 4, 335, 6, 2]));
 // console.log([1, 2, 1, 4, 335, 6, 2].keys());
 // console.log([1, 2, 1, 4, 5, 6, 2, 1].filter((a) => a === 1).length, "No.1");
+
+console.log("================================================");
+console.log("No.15");
+
+function compoundedReturn(amount, interest, n) {
+  const newAmount = amount * ((100 + interest) / 100) ** n;
+  return newAmount;
+}
+
+console.log(compoundedReturn(100, 1, 1)); // 101
+console.log(compoundedReturn(100, 10, 1)); // 110
+console.log(compoundedReturn(100, 10, 2)); // 121
